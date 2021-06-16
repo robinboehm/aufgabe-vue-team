@@ -1,7 +1,15 @@
 <template>
-  <button>hier zu drücken bringt gar nichts --> Gruss Torsten</button>
+  <torsten />
 </template>
 
-<script></script>
+<script>
+import Torsten from "./components/Torsten.vue";
+export default {
+  name: "App",
+  components: {
+    Torsten,
+  },
+};
+</script>
 
 <style lang="scss"></style>
