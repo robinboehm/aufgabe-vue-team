@@ -1,14 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <Vanessa />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Vanessa from "@/components/Vanessa.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Vanessa,
   },
 };
 </script>
