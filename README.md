@@ -12,5 +12,7 @@ Infos zum Thema Workflow mit Development- und Feature-Branch: https://www.atlass
 
 Feature-Branch in Development erstellen:
 
-git checkout development            --> Wechselt in die zuvor erstelte Development-Branch
-git checkout -b feature_branch      --> Erstellt und wechselt in die Feature-Branch
+git checkout development            --> Wechselt in die zuvor erstelte Development-Branch  
+git checkout -b feature_branch      --> Erstellt und wechselt in die Feature-Branch  
+  
+Denkt daran: Wenn ihr euch die Repository mit einem "git pull" holt, müsst ihr anschließend "npm install" ausführen!
